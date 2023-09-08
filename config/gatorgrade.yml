@@ -1,0 +1,12 @@
+- ./:
+    - response.md:
+        - description: response.md contains at least one paragraph. 
+          check: CountFileParagraphs
+          options:
+            count: 1
+        - description: response.md contains at least 100 words
+          check: CountFileWords
+          options:
+            count: 100
+
+      
